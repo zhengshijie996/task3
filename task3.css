@@ -1,0 +1,56 @@
+#box{
+    margin:0;
+    padding:0;
+}
+#box>div{
+    float: inline-end;
+}
+#box>back{
+    margin:0;
+}
+#back{
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+}
+#box>logo{
+    margin:0;
+}
+#logo{
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+#box>content{
+    margin:0;
+}
+#content{
+    color: white;
+    letter-spacing: 1pt;
+    line-height: 200%;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+#box>details{
+    margin: 0;
+}
+#details{
+    padding-top: 6rem;
+}
+#details>div{
+    float: left;
+    color: white;
+    text-align: center;
+}
+#details>left{
+    margin:0;
+}
+#left{
+    position: absolute;
+    left: 6rem;
+}
+#details>right{
+    margin:0;
+}
+#right{
+    position: absolute;
+    right: 6rem;
+}
